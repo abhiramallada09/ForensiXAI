@@ -41,12 +41,17 @@ data/working/*
 !data/working/.gitkeep
 data/reports/*
 !data/reports/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
 data/*.db
 data/*.sqlite
 data/*.sqlite3
 
 # Environment
 .env
+.env.*
+.env.example
 *.local
 
 # IDE & OS
